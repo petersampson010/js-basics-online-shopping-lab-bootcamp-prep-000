@@ -22,11 +22,14 @@ function viewCart() {
   } else {
     var itemList = []
     for (var i=0; i<cart.length; i++) {
-      
+      for (var itemList in cart[i]) {
+        items.push(`${itemList} at $${cart[i][itemList]}`)
+      }
     }
   }
-
 }
+}
+
 function viewCart() {
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
