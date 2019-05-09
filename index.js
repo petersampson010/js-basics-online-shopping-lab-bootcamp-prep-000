@@ -22,8 +22,8 @@ function viewCart() {
   } else {
     var itemList = []
     for (var i=0; i<cart.length; i++) {
-      for (var itemList in cart[i]) {
-        items.push(`${itemList} at $${cart[i][itemList]}`)
+      for (var item in cart[i]) {
+        itemList.push(`${item} at $${cart[i][item]}`)
       }
     }
   }
