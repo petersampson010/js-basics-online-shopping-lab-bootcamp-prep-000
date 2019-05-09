@@ -17,5 +17,7 @@ function addToCart(item) {
 }
 
 function removeFromCart(item) {
-  
+  cart.slice(item)
+  return cart
+}
 
