@@ -16,24 +16,8 @@ function addToCart(item) {
   return `${item} has been added to your cart.`
 }
 
-function viewCart() {
-  if (cart.length===0) {
-    return `Your shopping cart is empty.`
-  } else {
-    var itemList = []
-    for (var i=0; i<cart.length; i++) {
-      for (var item in cart[i]) {
-        itemList.push(`${item} at $${cart[i][item]}`)
-      }
-    }
-    return `In your cart, you have ${items.join(`, `)}.`
-  }
+function total() {
+  
 }
 
-function removeFromCart(item) {
-  // write your code here
-}
 
-function placeOrder(cardNumber) {
-  // write your code here
-}
