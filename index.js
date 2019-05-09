@@ -17,7 +17,7 @@ function addToCart(item) {
 }
 
 function removeFromCart(item) {
-  IND = cart.indexOf(item)
+  var IND = cart.indexOf(item)
   cart.slice(IND, (IND+1))
   return cart
 }
