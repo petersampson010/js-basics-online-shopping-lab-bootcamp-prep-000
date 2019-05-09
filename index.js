@@ -15,10 +15,4 @@ function addToCart(item) {
   cart.push(firstObject)
   return `${item} has been added to your cart.`
 }
-
-function removeFromCart(item) {
-  var IND = cart.indexOf(item)
-  return cart.slice(IND, (IND+1))
-}
-
-console.log(cmoooon)
+console.log(cart)
