@@ -17,12 +17,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var Obj = new Object({cart})
-  if (cart.length===0) {
-    return `Your shopping cart is empty.`
-  } else if (cart.length===1) {
-      return `In your cart, you have ${Object.keys(cart[0])} at $${cart[0][Object.keys(cart[0])]}.`
-  }
+
 }
 
 function removeFromCart(item) {
