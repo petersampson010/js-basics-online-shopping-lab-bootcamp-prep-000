@@ -21,3 +21,4 @@ function removeFromCart(item) {
   return cart.slice(IND, (IND+1))
 }
 
+console.log(cmoooon)
