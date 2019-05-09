@@ -26,16 +26,10 @@ function viewCart() {
         itemList.push(`${item} at $${cart[i][item]}`)
       }
     }
-    return `In your cart, you have ${items.join()
+    return `In your cart, you have ${items.join(`, `)}.`
   }
 }
 
-`
-      }
-    }
-    console.log("In your cart, you have " + items.join(", ") + ".");
-  }
-}
 function removeFromCart(item) {
   // write your code here
 }
