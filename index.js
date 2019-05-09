@@ -21,7 +21,7 @@ function viewCart() {
     return `Your shopping cart is empty.`
   } else {
     var itemList = []
-    for (i=0; i<cart.length; i++) {
+    for (var i=0; i<cart.length; i++) {
       
     }
   }
